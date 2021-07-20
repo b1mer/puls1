@@ -1,0 +1,33 @@
+.reviews {
+    padding-bottom: 71px;
+    &__block {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        width: 885px;
+    }
+    &__text {
+        width: 650px;
+    }
+    &__head {
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 18px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__subhead {
+        margin-top: 10px;
+        float: left;
+        color: #646464;
+        font-family: "Museo Sans Cyrl 300";
+        font-size: 14px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__descr {
+        margin-top: 42px;
+    }
+}

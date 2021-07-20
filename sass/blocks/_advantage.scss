@@ -1,0 +1,33 @@
+.advantage {
+    height: 470px;
+    background-color: #f6f6f6;
+    padding: 69px 0 78px 0;
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 239px;
+    }
+    &__subheader {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl 700";
+        font-size: 18px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 26px;
+        font-family: "Museo Sans Cyrl 300";
+        font-size: 14px;
+        text-align: center;
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+}
